@@ -20,7 +20,7 @@ In the [thread](https://forum.katalon.com/discussion/10840/image-rotation-is-not
 I made a Katalon Studio project which opens the locally saved HTML and do try clicking buttons to rotate the image.
 
 I used Web Recorder tool to generate a few Test Objects.
-- [Object Repository/Page_Workilo Create Listing](https://github.com/kazurayam/KatalonDiscussion10840/blob/master/Object%20Repository/Page_Workilo%20%20Create%20Listing/a_Rotate%20Image.rs)
+- [Object Repository/Page_Workilo Create Listing/a_Rotate Image](https://github.com/kazurayam/KatalonDiscussion10840/blob/master/Object%20Repository/Page_Workilo%20%20Create%20Listing/a_Rotate%20Image.rs)
 - [Object Repository/Page_Workilo Create Listing/i_X_fa fa-rotate-left button](https://github.com/kazurayam/KatalonDiscussion10840/blob/master/Object%20Repository/Page_Workilo%20%20Create%20Listing/i_X_fa%20fa-rotate-left%20%20button_.rs)
 
 Web Recorder generated a Test Case
@@ -35,6 +35,24 @@ WebUI.scrollToElement(findTestObject('Object Repository/Page_Workilo  Create Lis
 When I ran the test case TC1, it succeeded without error. And I could see the image was rotated by WebUI.click().
 ![image was roated](docs/images/スクリーンショット 2018-11-24 11.04.59.png)
 
+Of course, I did not changed the target HTML at all.
+
+## What I observed.
+
+![logview](docs/images/スクリーンショット 2018-11-24 11.14.11.png)
+
+In the log of reproduction, I found a message as follows:
+```
+Clicking on object: 'Object Repository/Page_Workilo_ Create Listing/i_Xfa fa-roate-left button_'
+
+```
+
+This message clearly indicated that Katalon Studio DID click the rotate-left button.
+
+However nazneen, the originator of the discussion, posted a screenshot of his log. In his log, I found that the message "Clicking on object ..." is missing. This would indicate that Katalon Stduio on nazneen's machine DID NOT click the rotate-left button. Why not? --- I do not have any clue.
+
 ## Conclusion
 
-I could not reproduce the problem. The Web app and Katalon test case seem to be working OK.
+I could not reproduce the problem using the ZIP file provided by nazneen.
+
+"Clicking on object ..." message clearly indicates there is something different between nazneen and me. However I don't see what.
