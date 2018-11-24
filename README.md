@@ -33,13 +33,13 @@ WebUI.scrollToElement(findTestObject('Object Repository/Page_Workilo  Create Lis
 ```
 
 When I ran the test case TC1, it succeeded without error. And I could see the image was rotated by WebUI.click().
-![image was roated](docs/images/スクリーンショット 2018-11-24 11.04.59.png)
+![image was roated](docs/images/screenshot2018-11-24_11.04.59.png)
 
 Of course, I did not changed the target HTML at all.
 
 ## What I observed.
 
-![logview](docs/images/スクリーンショット 2018-11-24 11.14.11.png)
+![logview](docs/images/screenshot2018-11-24_11.14.11.png)
 
 In the log of reproduction, I found a message as follows:
 ```
