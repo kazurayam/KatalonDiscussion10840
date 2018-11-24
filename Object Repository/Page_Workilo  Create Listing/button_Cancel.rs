@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Cancel</name>
+   <tag></tag>
+   <elementGuidId>9d17b906-8bf9-4df8-8c68-d531d2ec1fb9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/following::button[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>cancel_rotate</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cancel</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;ua-windows_nt ua-windows_nt-6 ua-windows_nt-6-3 ua-chrome ua-chrome-70 ua-chrome-70-0 ua-chrome-70-0-3538 ua-chrome-70-0-3538-102 ua-desktop ua-desktop-windows ua-webkit ua-webkit-537 ua-webkit-537-36 js webkit chrome win js ua-gecko ua-gecko-63 ua-gecko-63-0 ua-firefox ua-firefox-63 ua-firefox-63-0 ua-desktop ua-desktop-macintosh ua-mac_os_x ua-mac_os_x-10 ua-mac_os_x-10-13 js gecko mac js&quot;]/body[1]/div[@class=&quot;popup fixed-width ask-question custom_popup&quot;]/div[@class=&quot;custom_popuparea&quot;]/div[@class=&quot;custom_popup_bottomarea&quot;]/div[@class=&quot;popbottom_btnarea&quot;]/button[@class=&quot;cancel_rotate&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/following::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='X'])[1]/following::button[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//button[2]</value>
+   </webElementXpaths>
+</WebElementEntity>
