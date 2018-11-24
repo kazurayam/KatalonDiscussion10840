@@ -49,7 +49,7 @@ Clicking on object: 'Object Repository/Page_Workilo_ Create Listing/i_Xfa fa-roa
 
 This message clearly indicated that Katalon Studio DID click the rotate-left button.
 
-However nazneen, the originator of the discussion, posted a screenshot of his log. In his log, I found that the message "Clicking on object ..." is missing. This would indicate that Katalon Stduio on nazneen's machine DID NOT click the rotate-left button. Why not? --- I do not have any clue.
+However nazneen, the originator of the discussion, posted a screenshot of his log. In his log, I found that the message "Clicking on object ..." is missing in his log view. This would indicate that Katalon Stduio on nazneen's machine DID NOT click the rotate-left button. Why not? --- I do not have any clue.
 
 ## Conclusion
 
