@@ -12,9 +12,23 @@ WebUI.scrollToElement(findTestObject('Object Repository/Page_Workilo  Create Lis
 
 WebUI.click(findTestObject('Object Repository/Page_Workilo  Create Listing/a_Rotate Image'))
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Object Repository/Page_Workilo  Create Listing/i_X_fa fa-rotate-left  button_'))
 
+WebUI.delay(10)
+
 WebUI.click(findTestObject('Object Repository/Page_Workilo  Create Listing/i_X_fa fa-rotate-right  button'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Object Repository/Page_Workilo  Create Listing/i_X_fa fa-rotate-right  button'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Object Repository/Page_Workilo  Create Listing/i_X_fa fa-rotate-left  button_'))
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Page_Workilo  Create Listing/button_Cancel'))
 
