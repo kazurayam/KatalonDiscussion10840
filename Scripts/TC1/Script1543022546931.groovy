@@ -1,10 +1,18 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import java.nio.file.Path
+import java.nio.file.Paths
+import com.kms.katalon.core.configuration.RunConfiguration
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('file:///Users/urayamakazuaki/katalon-workspace/KatalonDiscussion10840/New%20folder/Workilo%20__%20Create%20Listing.html')
+Path projectDir = Paths.get(RunConfiguration.getProjectDir())
+Path html = projectDir.resolve('New folder/Workilo __ Create Listing.html')
+String htmlStr = html.toUri().toURL().toExternalForm()
+WebUI.comment("htmlStr is ${htmlStr}")
+
+WebUI.navigateToUrl(htmlStr)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Workilo  Create Listing/h3_service or gig details'), 10)
 
